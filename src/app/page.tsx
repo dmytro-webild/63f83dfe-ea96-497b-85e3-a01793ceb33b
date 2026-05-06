@@ -98,13 +98,17 @@ export default function LandingPage() {
       textboxLayout="default"
       gridVariant="three-columns-all-equal-width"
       useInvertedBackground={false}
+      buttons={[{ text: "View Full Gallery", href: "#" }]}
       products={[
-        { id: "1", brand: "Carpentry", name: "Custom Kitchen Cabinetry", price: "$5,000+", rating: 5, reviewCount: "12", imageSrc: "http://img.b2bpic.net/free-photo/background-with-empty-wooden-table-with-tablecloth_93675-130865.jpg" },
-        { id: "2", brand: "Carpentry", name: "Built-in Bookshelves", price: "$2,500+", rating: 5, reviewCount: "8", imageSrc: "http://img.b2bpic.net/free-photo/close-up-minimalist-fireplace_23-2148238611.jpg" },
-        { id: "3", brand: "Tile", name: "Modern Bathroom Tile", price: "$3,000+", rating: 5, reviewCount: "15", imageSrc: "http://img.b2bpic.net/free-photo/photo-ground-texture-pattern_58702-11686.jpg" },
+        { id: "1", brand: "Carpentry", name: "Custom Kitchen Cabinetry", price: "", rating: 5, reviewCount: "", imageSrc: "http://img.b2bpic.net/free-photo/background-with-empty-wooden-table-with-tablecloth_93675-130865.jpg" },
+        { id: "2", brand: "Carpentry", name: "Modern Living Built-ins", price: "", rating: 5, reviewCount: "", imageSrc: "http://img.b2bpic.net/free-photo/close-up-minimalist-fireplace_23-2148238611.jpg" },
+        { id: "3", brand: "Tile", name: "Master Bath Tile", price: "", rating: 5, reviewCount: "", imageSrc: "http://img.b2bpic.net/free-photo/photo-ground-texture-pattern_58702-11686.jpg" },
+        { id: "4", brand: "Carpentry", name: "Hardwood Flooring", price: "", rating: 5, reviewCount: "", imageSrc: "http://img.b2bpic.net/free-photo/interior-home-design-with-wooden-floor_23-2148443916.jpg" },
+        { id: "5", brand: "Tile", name: "Backsplash Design", price: "", rating: 5, reviewCount: "", imageSrc: "http://img.b2bpic.net/free-photo/tiled-kitchen-wall_23-2148906644.jpg" },
+        { id: "6", brand: "Carpentry", name: "Custom Trim Work", price: "", rating: 5, reviewCount: "", imageSrc: "http://img.b2bpic.net/free-photo/carpenter-working-wood_23-2148970806.jpg" },
       ]}
-      title="Recent Projects Gallery"
-      description="Browse our latest carpentry and tile installations across the county."
+      title="Our Project Showcase"
+      description="A curated selection of our recent craftsmanship across Volusia County."
     />
   </div>
 
@@ -141,6 +145,8 @@ export default function LandingPage() {
         { id: "q1", title: "Do you serve all of Volusia County?", content: "Yes, we proudly serve all cities and communities within Volusia County." },
         { id: "q2", title: "Can I provide my own materials?", content: "Yes, we are happy to work with your materials or help you source high-quality options." },
         { id: "q3", title: "How do I get a quote?", content: "Click the 'Book Free Estimate' button to fill out our contact form." },
+        { id: "q4", title: "What is your typical project timeline?", content: "Timelines vary by project size; we will provide a clear estimate during our consultation." },
+        { id: "q5", title: "Are you licensed and insured?", content: "Yes, we are fully licensed and insured for all carpentry and tiling work." },
       ]}
       title="Common Questions"
       description="Here is what you need to know about our home service process."
@@ -152,10 +158,11 @@ export default function LandingPage() {
       <ContactSplit
       useInvertedBackground={false}
       background={{ variant: "plain" }}
-      title="Let's Get Started"
-      description="Ready to transform your home? Fill out your details below and we'll reach out to discuss your project."
+      title="Let's Talk About Your Project"
+      description="Share your vision with us, and let's bring it to life."
       mediaPosition="right"
       tag="Contact Us"
+      buttonText="Send Message"
       imageSrc="http://img.b2bpic.net/free-photo/building-blueprints-table_23-2147710828.jpg"
     />
   </div>
